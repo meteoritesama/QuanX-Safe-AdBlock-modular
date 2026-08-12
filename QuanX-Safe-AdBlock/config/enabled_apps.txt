@@ -5,7 +5,7 @@
 
 # Enabled modules
 netease
-tencent-video
+jd
 youku
 migu-video
 taobao

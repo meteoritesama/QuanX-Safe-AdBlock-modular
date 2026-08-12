@@ -14,10 +14,11 @@
     "huya",
     "douyu",
     "xiaohongshu",
-    "youtube-lite"
+    "youtube-lite",
+    "yangshipin"
   ],
-  "rule_count": 56,
-  "hostname_count": 42,
+  "rule_count": 57,
+  "hostname_count": 43,
   "modules": [
     {
       "module": "netease",
@@ -93,6 +94,11 @@
       "module": "youtube-lite",
       "rules_added": 5,
       "hosts_added": 4
+    },
+    {
+      "module": "yangshipin",
+      "rules_added": 1,
+      "hosts_added": 1
     }
   ]
 }

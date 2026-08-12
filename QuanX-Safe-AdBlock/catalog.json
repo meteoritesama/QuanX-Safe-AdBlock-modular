@@ -182,5 +182,13 @@
     "notes": "Value-added splash/ad endpoints only. Not enabled by default.",
     "rule_count": 3,
     "hostname_count": 2
+  },
+  "yangshipin": {
+    "file": "modules/yangshipin.conf",
+    "title": "央视频 / Yangshipin",
+    "mode": "native",
+    "notes": "Dedicated CMG advertising-pool JSON only; no JavaScript.",
+    "rule_count": 1,
+    "hostname_count": 1
   }
 }

@@ -19,8 +19,9 @@ huya
 douyu
 xiaohongshu
 youtube-lite
+yangshipin
 
-# All available modules (23):
+# All available modules (24):
 # amap  # 高德地图 / Amap
 # bilibili  # 哔哩哔哩 / Bilibili
 # dianping  # 大众点评 / Dianping
@@ -41,6 +42,7 @@ youtube-lite
 # weibo  # 微博 / Weibo
 # xianyu  # 闲鱼 / Xianyu
 # xiaohongshu  # 小红书 / Xiaohongshu
+# yangshipin  # 央视频 / Yangshipin
 # youku  # 优酷 / Youku
 # youtube-lite  # YouTube Lite（低开销）
 # zhihu  # 知乎 / Zhihu

@@ -1,7 +1,7 @@
 {
   "enabled_modules": [
     "netease",
-    "tencent-video",
+    "jd",
     "youku",
     "migu-video",
     "taobao",
@@ -16,8 +16,8 @@
     "xiaohongshu",
     "youtube-lite"
   ],
-  "rule_count": 54,
-  "hostname_count": 40,
+  "rule_count": 56,
+  "hostname_count": 42,
   "modules": [
     {
       "module": "netease",
@@ -25,9 +25,9 @@
       "hosts_added": 1
     },
     {
-      "module": "tencent-video",
-      "rules_added": 3,
-      "hosts_added": 3
+      "module": "jd",
+      "rules_added": 5,
+      "hosts_added": 5
     },
     {
       "module": "youku",

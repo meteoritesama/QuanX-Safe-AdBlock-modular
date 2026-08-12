@@ -48,9 +48,9 @@ youtube-lite
 # Optional modules available but NOT enabled (8):
 # amap  # 高德地图 / Amap
 # eleme  # 饿了么 / Ele.me
-# jd  # 京东 / JD
 # qq  # QQ
 # qqmusic  # QQ音乐 / QQ Music
+# tencent-video  # 腾讯视频 / Tencent Video
 # wechat  # 微信 / WeChat
 # weibo  # 微博 / Weibo
 # xianyu  # 闲鱼 / Xianyu

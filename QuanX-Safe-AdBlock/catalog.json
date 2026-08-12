@@ -1,0 +1,186 @@
+{
+  "netease": {
+    "file": "modules/netease.conf",
+    "title": "网易云音乐 / NetEase Cloud Music",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 4,
+    "hostname_count": 1
+  },
+  "tencent-video": {
+    "file": "modules/tencent-video.conf",
+    "title": "腾讯视频 / Tencent Video",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 3,
+    "hostname_count": 3
+  },
+  "youku": {
+    "file": "modules/youku.conf",
+    "title": "优酷 / Youku",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 1,
+    "hostname_count": 1
+  },
+  "migu-video": {
+    "file": "modules/migu-video.conf",
+    "title": "咪咕视频 / Migu Video",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 8,
+    "hostname_count": 8
+  },
+  "taobao": {
+    "file": "modules/taobao.conf",
+    "title": "淘宝 / Taobao",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 2,
+    "hostname_count": 1
+  },
+  "bilibili": {
+    "file": "modules/bilibili.conf",
+    "title": "哔哩哔哩 / Bilibili",
+    "mode": "script-light",
+    "notes": "Uses only the repository's own small JSON cleaner; protobuf/gRPC remains out of scope.",
+    "rule_count": 12,
+    "hostname_count": 5
+  },
+  "meituan": {
+    "file": "modules/meituan.conf",
+    "title": "美团 / Meituan",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 2,
+    "hostname_count": 3
+  },
+  "dianping": {
+    "file": "modules/dianping.conf",
+    "title": "大众点评 / Dianping",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 2,
+    "hostname_count": 1
+  },
+  "pinduoduo": {
+    "file": "modules/pinduoduo.conf",
+    "title": "拼多多 / Pinduoduo",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 1,
+    "hostname_count": 2
+  },
+  "zhihu": {
+    "file": "modules/zhihu.conf",
+    "title": "知乎 / Zhihu",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 2,
+    "hostname_count": 1
+  },
+  "tieba": {
+    "file": "modules/tieba.conf",
+    "title": "百度贴吧 / Baidu Tieba",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 2,
+    "hostname_count": 1
+  },
+  "huya": {
+    "file": "modules/huya.conf",
+    "title": "虎牙直播 / Huya",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 3,
+    "hostname_count": 3
+  },
+  "douyu": {
+    "file": "modules/douyu.conf",
+    "title": "斗鱼直播 / Douyu",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 4,
+    "hostname_count": 4
+  },
+  "xiaohongshu": {
+    "file": "modules/xiaohongshu.conf",
+    "title": "小红书 / Xiaohongshu",
+    "mode": "native",
+    "notes": "",
+    "rule_count": 3,
+    "hostname_count": 2
+  },
+  "youtube-lite": {
+    "file": "modules/youtube-lite.conf",
+    "title": "YouTube Lite（低开销）",
+    "mode": "native",
+    "notes": "Low-overhead mode. Does not parse youtubei protobuf responses, so some feed/Shorts/player ads may remain.",
+    "rule_count": 5,
+    "hostname_count": 4
+  },
+  "weibo": {
+    "file": "modules/weibo.conf",
+    "title": "微博 / Weibo",
+    "mode": "script-light",
+    "notes": "Native blocking plus repository-owned conservative JSON cleaner; not enabled by default.",
+    "rule_count": 20,
+    "hostname_count": 8
+  },
+  "qqmusic": {
+    "file": "modules/qqmusic.conf",
+    "title": "QQ音乐 / QQ Music",
+    "mode": "native",
+    "notes": "Dedicated splash/ad endpoints only; no JavaScript; not enabled by default.",
+    "rule_count": 7,
+    "hostname_count": 11
+  },
+  "wechat": {
+    "file": "modules/wechat.conf",
+    "title": "微信 / WeChat",
+    "mode": "script-light",
+    "notes": "Public-account article ads only; deliberately excludes chat/payment/login/Moments core APIs. Not enabled by default.",
+    "rule_count": 2,
+    "hostname_count": 1
+  },
+  "qq": {
+    "file": "modules/qq.conf",
+    "title": "QQ",
+    "mode": "native-lite",
+    "notes": "Narrow splash/GDT/video-ad endpoints; avoids blanket Tencent-domain blocking. Not enabled by default.",
+    "rule_count": 5,
+    "hostname_count": 5
+  },
+  "jd": {
+    "file": "modules/jd.conf",
+    "title": "京东 / JD",
+    "mode": "native-lite",
+    "notes": "Avoids rewriting the full startup JSON; blocks dedicated ad/marketing endpoints only. Not enabled by default.",
+    "rule_count": 5,
+    "hostname_count": 5
+  },
+  "xianyu": {
+    "file": "modules/xianyu.conf",
+    "title": "闲鱼 / Xianyu",
+    "mode": "native",
+    "notes": "Splash plus explicit marketing/recommendation MTop endpoints. Not enabled by default.",
+    "rule_count": 6,
+    "hostname_count": 1
+  },
+  "eleme": {
+    "file": "modules/eleme.conf",
+    "title": "饿了么 / Ele.me",
+    "mode": "native-media",
+    "notes": "Known startup media patterns; default disabled because CDN dimensions may change. Not enabled by default.",
+    "rule_count": 6,
+    "hostname_count": 4
+  },
+  "amap": {
+    "file": "modules/amap.conf",
+    "title": "高德地图 / Amap",
+    "mode": "native-lite",
+    "notes": "Value-added splash/ad endpoints only. Not enabled by default.",
+    "rule_count": 3,
+    "hostname_count": 2
+  }
+}

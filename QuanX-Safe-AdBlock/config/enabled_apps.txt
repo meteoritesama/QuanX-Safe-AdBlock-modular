@@ -1,0 +1,56 @@
+# QuanX Safe AdBlock - app module selector
+# Non-comment lines are ENABLED modules.
+# To enable an optional module, remove the leading '# ' from its line and run tools/build.py.
+# This file's catalog sections are regenerated automatically by tools/build.py.
+
+# Enabled modules
+netease
+tencent-video
+youku
+migu-video
+taobao
+bilibili
+meituan
+dianping
+pinduoduo
+zhihu
+tieba
+huya
+douyu
+xiaohongshu
+youtube-lite
+
+# All available modules (23):
+# amap  # 高德地图 / Amap
+# bilibili  # 哔哩哔哩 / Bilibili
+# dianping  # 大众点评 / Dianping
+# douyu  # 斗鱼直播 / Douyu
+# eleme  # 饿了么 / Ele.me
+# huya  # 虎牙直播 / Huya
+# jd  # 京东 / JD
+# meituan  # 美团 / Meituan
+# migu-video  # 咪咕视频 / Migu Video
+# netease  # 网易云音乐 / NetEase Cloud Music
+# pinduoduo  # 拼多多 / Pinduoduo
+# qq  # QQ
+# qqmusic  # QQ音乐 / QQ Music
+# taobao  # 淘宝 / Taobao
+# tencent-video  # 腾讯视频 / Tencent Video
+# tieba  # 百度贴吧 / Baidu Tieba
+# wechat  # 微信 / WeChat
+# weibo  # 微博 / Weibo
+# xianyu  # 闲鱼 / Xianyu
+# xiaohongshu  # 小红书 / Xiaohongshu
+# youku  # 优酷 / Youku
+# youtube-lite  # YouTube Lite（低开销）
+# zhihu  # 知乎 / Zhihu
+
+# Optional modules available but NOT enabled (8):
+# amap  # 高德地图 / Amap
+# eleme  # 饿了么 / Ele.me
+# jd  # 京东 / JD
+# qq  # QQ
+# qqmusic  # QQ音乐 / QQ Music
+# wechat  # 微信 / WeChat
+# weibo  # 微博 / Weibo
+# xianyu  # 闲鱼 / Xianyu

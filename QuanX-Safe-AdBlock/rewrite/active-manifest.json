@@ -1,0 +1,98 @@
+{
+  "enabled_modules": [
+    "netease",
+    "tencent-video",
+    "youku",
+    "migu-video",
+    "taobao",
+    "bilibili",
+    "meituan",
+    "dianping",
+    "pinduoduo",
+    "zhihu",
+    "tieba",
+    "huya",
+    "douyu",
+    "xiaohongshu",
+    "youtube-lite"
+  ],
+  "rule_count": 54,
+  "hostname_count": 40,
+  "modules": [
+    {
+      "module": "netease",
+      "rules_added": 4,
+      "hosts_added": 1
+    },
+    {
+      "module": "tencent-video",
+      "rules_added": 3,
+      "hosts_added": 3
+    },
+    {
+      "module": "youku",
+      "rules_added": 1,
+      "hosts_added": 1
+    },
+    {
+      "module": "migu-video",
+      "rules_added": 8,
+      "hosts_added": 8
+    },
+    {
+      "module": "taobao",
+      "rules_added": 2,
+      "hosts_added": 1
+    },
+    {
+      "module": "bilibili",
+      "rules_added": 12,
+      "hosts_added": 5
+    },
+    {
+      "module": "meituan",
+      "rules_added": 2,
+      "hosts_added": 3
+    },
+    {
+      "module": "dianping",
+      "rules_added": 2,
+      "hosts_added": 1
+    },
+    {
+      "module": "pinduoduo",
+      "rules_added": 1,
+      "hosts_added": 2
+    },
+    {
+      "module": "zhihu",
+      "rules_added": 2,
+      "hosts_added": 1
+    },
+    {
+      "module": "tieba",
+      "rules_added": 2,
+      "hosts_added": 1
+    },
+    {
+      "module": "huya",
+      "rules_added": 3,
+      "hosts_added": 3
+    },
+    {
+      "module": "douyu",
+      "rules_added": 4,
+      "hosts_added": 4
+    },
+    {
+      "module": "xiaohongshu",
+      "rules_added": 3,
+      "hosts_added": 2
+    },
+    {
+      "module": "youtube-lite",
+      "rules_added": 5,
+      "hosts_added": 4
+    }
+  ]
+}

@@ -2,11 +2,16 @@ name: Build active QuanX bundle
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "QuanX-Safe-AdBlock/config/enabled_apps.txt"
       - "QuanX-Safe-AdBlock/modules/**"
       - "QuanX-Safe-AdBlock/scripts/**"
+      - "QuanX-Safe-AdBlock/catalog.json"
       - "QuanX-Safe-AdBlock/tools/build.py"
+      - ".github/workflows/build-active.yml"
+
   workflow_dispatch:
 
 permissions:
@@ -15,31 +20,38 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Clone this repository without third-party Actions
+      - name: Clone repository
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
           git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" repo
 
-      - name: Build only enabled app modules
+      - name: Build active bundle
         run: |
           cd repo
           python3 QuanX-Safe-AdBlock/tools/build.py
 
-      - name: Commit generated bundle if changed
+      - name: Commit generated files
         env:
           BRANCH: ${{ github.ref_name }}
         run: |
           cd repo
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add QuanX-Safe-AdBlock/rewrite/AdBlock.conf \
-                  QuanX-Safe-AdBlock/rewrite/active-manifest.json
+
+          git add \
+            QuanX-Safe-AdBlock/config/enabled_apps.txt \
+            QuanX-Safe-AdBlock/rewrite/AdBlock.conf \
+            QuanX-Safe-AdBlock/rewrite/active-manifest.json
+
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0
           fi
-          git commit -m "build: update active QuanX bundle"
+
+          git commit -m "build: update active QuanX bundle [skip ci]"
           git push origin "HEAD:${BRANCH}"

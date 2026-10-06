@@ -17,13 +17,13 @@
     "youtube-lite",
     "yangshipin"
   ],
-  "rule_count": 57,
-  "hostname_count": 43,
+  "rule_count": 63,
+  "hostname_count": 44,
   "modules": [
     {
       "module": "netease",
-      "rules_added": 4,
-      "hosts_added": 1
+      "rules_added": 10,
+      "hosts_added": 2
     },
     {
       "module": "jd",
